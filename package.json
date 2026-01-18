@@ -1,0 +1,33 @@
+{
+  "name": "morphus-x402-examples",
+  "version": "1.0.0",
+  "description": "Example implementations for MORPHUS x402 AI Inference API",
+  "type": "module",
+  "scripts": {
+    "example:basic": "tsx examples/basic-chat.ts",
+    "example:multi": "tsx examples/multi-model.ts",
+    "example:context": "tsx examples/with-context.ts"
+  },
+  "keywords": [
+    "x402",
+    "ai",
+    "llm",
+    "inference",
+    "morphus",
+    "crypto-payments",
+    "pay-per-use"
+  ],
+  "author": "MORPHUS",
+  "license": "MIT",
+  "dependencies": {
+    "x402-axios": "^0.1.0",
+    "axios": "^1.6.0",
+    "viem": "^2.0.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
